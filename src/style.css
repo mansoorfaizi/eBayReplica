@@ -1,0 +1,342 @@
+.div1{
+    width: 100%;
+    height: 25px;
+    border-bottom: 1px solid lavender;
+}
+
+.div1 div{
+    display: inline;
+}
+
+.div1 .left{
+    width: 400px;
+    height: 20px;
+    float: left;
+    font-size: small;
+    padding-left: 35px;
+    padding-top: 5px;
+}
+
+
+.div1 .right{
+    width: 400px;
+    height: 20px;
+    float: right;
+    font-size: small;
+    padding-top: 4px;
+}
+
+ul{
+    list-style-type:none;
+}
+
+ul li{
+    display: inline;
+    padding-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sign{
+    color: blue;
+    text-decoration: underline;
+}
+
+select{
+    border: none;
+    cursor: pointer;
+}
+
+.right img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.div2{
+    width: 100%;
+    height: 85px;
+    border-bottom: 1px solid lavender;
+}
+
+
+
+.body{
+    width: 100%;
+    min-height: 700px;
+    border-bottom: 1px solid lavender;
+}
+
+.body .parent{
+    width: 150px;
+    height: 200px;
+    border: 1px solid lavender;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.parent .top{
+    width: inherit;
+    height: 150px;
+    border-bottom: inherit;
+}
+
+.parent .bottom{
+    width: inherit;
+    height: 50px;
+}
+
+.div2 .title{
+    display: inline;
+    color: red;
+    font-size: 40px;
+    margin-left: 40px;
+}
+.title .b{
+    color: blue;
+}
+
+.title .a{
+    color: peru;
+}
+
+.y{
+    color: green;
+}
+
+.div2 select{
+    width: 130px;
+    height: 50px;
+    border: none;
+}
+.search{
+    display: inline;
+}
+.search input{
+    width: 550px;
+    height: 40px;
+    border: 2px solid black;
+    border-right: none;
+    padding-left: 5px;
+}
+
+.search select{
+    height: 40px;
+    border: 2px solid black;
+    border-left: 1px solid gray;
+    margin-left: -5px;
+}
+
+.div2 button{
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: rgb(69, 69, 219);
+    color: white;
+    margin-left: 5px;
+}
+
+.div2 .Advanced{
+    color: gray;
+    font-size: small;
+    padding-left: 5px;
+}
+
+.menu{
+    border-bottom: 1px solid lavender;
+    width: 100%;
+    height: 25px;
+}
+
+.menu div{
+    text-align: center;
+    font-size: normal;
+    padding-top: 3px;
+}
+
+.menu div ul li{
+    padding-left: 20px;
+}
+
+
+.menu div ul li a:hover{
+    color: red;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.notification{
+    width: 100%;
+    height: 320px;
+    border: 1px solid lavender;
+}
+
+.img img{
+    width: 100%;
+    height: 320px;
+}
+
+.gallery{
+  
+    background-color: white;
+    height: 28rem;
+    margin-top: 3rem;
+}
+.gallery header h3{
+    color: black;
+    font-size: 30px;
+    justify-content: space-between;
+    padding-left: 2.4rem;
+    padding-top: 1rem;
+}
+.gallery p{
+    font-size: 1.4rem;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2.4rem;
+    padding: 0 2.4rem;
+    padding-top: 1.7rem;
+    
+}
+
+.card{
+    background-color: rosybrown;
+    padding-bottom: 1.6rem;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 10px 10px rgba(85, 85, 85, 0.5);
+    cursor: pointer;
+
+}
+
+.card:hover{
+    background-color: lightblue;
+    width: 275px;
+    /* height: 340px; */
+
+}
+
+
+
+.card img{
+    width: 100%;
+    height: 180px;
+}
+
+.card text{
+    padding:  1.6rem;
+}
+
+.card-tag{
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
+    padding-left: 0.4rem;
+}
+
+.card-heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1.6rem;
+    margin-bottom: 1.2rem;
+    padding-left: 0.4rem;
+}
+
+.price{
+    position: absolute;
+    color: white;
+    background-color: red;  
+    padding: 0.8rem 1.2rem;
+    border-top-left-radius: 21px;
+    right: 0;
+    bottom: 0%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-product{
+    background-color: white;
+    height: 28rem;
+    margin-top: 3rem;
+}
+
+.top-product header h3{
+    color: black;
+    font-size: 30px;
+    justify-content: space-between;
+    padding-left: 2.4rem;
+    padding-top: 1rem;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    /* border-top: black 1px solid; */
+    /* padding-top: 50px; */
+    background-color: teal;
+}
+
+.topp{
+    width: 90%;
+    /* height: 250px; */
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2.4rem;
+    margin-left: 30px;
+    padding: 0 2.4rem;
+    padding-top: 1.7rem;
+}
+
+.headd{
+    width: 200px;
+    /* height: 200px; */
+    /* border: 1px solid yellow; */
+}
+.headd ul li{
+    display: block;
+    padding-top: 2px;
+
+}
+.headd ul li a{
+    color: antiquewhite;
+    font-size: 12PX;
+}
+
+.headd ul li a:hover{
+    color:yellow;
+    font-weight: 600;
+    text-decoration: underline ;
+
+}
+
+.headd ul li select{
+   width: 150px;
+   height: 30px;
+   border: 1px solid lavender; 
+   background-color: lightgray;
+}
+
+.headd ul li select:hover{
+    text-decoration: underline;
+}
+
+
+footer p{
+    color: mintcream;
+    font-size: 13px;
+    padding-left: 70px;
+}
