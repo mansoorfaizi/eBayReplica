@@ -19,11 +19,10 @@ eBayReplica is a web application created with HTML, CSS, and JavaScript to mimic
 - HTML
 - CSS
 - JavaScript
-- [Any additional libraries or frameworks you've used]
 
 ## Setup
 
-1. Clone the repository: `git clone https://github.com/your-username/eBayReplica.git`
+1. Clone the repository: `git@github.com:mansoorfaizi/eBayReplica.git`
 2. Open `index.html` in your preferred web browser.
 
 ## Usage
@@ -47,7 +46,5 @@ Contributions are welcome! If you'd like to contribute to eBayReplica, please fo
 This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
-
-- [Any credits or acknowledgments you want to include]
 
 Happy coding!
