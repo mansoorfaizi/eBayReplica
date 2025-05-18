@@ -1,4 +1,4 @@
-# eBayReplica
+# eBay clone
 
 Welcome to eBayReplica, your open-source eBay clone project!
 
